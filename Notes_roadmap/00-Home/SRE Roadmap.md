@@ -30,7 +30,7 @@ HTTP / REST API
 In Progress
 
 ### Next Topic
-Linux
+Linux Basics
 
 ## Practical Goal
 
