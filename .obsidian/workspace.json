@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/01-Linux/Git Basics.md",
+                "file": "Notes_roadmap/00-Home/SRE Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Basics"
+              "title": "SRE Roadmap"
             }
           }
         ]
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +200,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "844e3ef7b42ef005",
+  "active": "f4b10d618e3e332e",
   "lastOpenFiles": [
+    "Notes_roadmap/01-Linux/Git Basics.md",
     "Notes_roadmap/05-Load-Balancing/Load Balancing Basics.md",
     "Notes_roadmap/05-Load-Balancing/Load Balancer Troubleshooting.md",
     "Notes_roadmap/05-Load-Balancing/L4 vs L7.md",
@@ -213,7 +215,6 @@
     "README.md",
     "Untitled.base",
     "Notes_roadmap/01-Linux/Untitled.base",
-    "Notes_roadmap/01-Linux/Git Basics.md",
     "Notes_roadmap/README.md",
     "Notes_roadmap/03-HTTP-REST/HTTP Basics.md",
     "Notes_roadmap/03-HTTP-REST/REST API.md",
