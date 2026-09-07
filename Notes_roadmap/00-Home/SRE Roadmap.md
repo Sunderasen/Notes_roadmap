@@ -11,7 +11,7 @@ Become job-ready for an SRE role and start interviewing after April 2027.
 - [x] HTTP & REST APIs
 - [ ] DNS
 - [ ] Load Balancing
-- [ ] Git
+- [x] Git
 - [ ] Monitoring
 - [ ] Docker
 - [ ] Kubernetes
@@ -30,7 +30,7 @@ HTTP / REST API
 In Progress
 
 ### Next Topic
-Load Balancing
+Linux
 
 ## Practical Goal
 
