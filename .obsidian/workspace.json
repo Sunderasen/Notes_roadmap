@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "072f060eb1761390",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee2ae3fa3c822fb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "844e3ef7b42ef005",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50db54b762e5eb5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "139efa2b1a08fb4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4b10d618e3e332e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cf578716b741c3dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d5b997856701b9f1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "68b06ac1dd4599c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea3c1f105ddd57f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b6bbb81e8c70a57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes_roadmap/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d692ac394bc72dae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes_roadmap/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a301214d186807a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e660192b56a0dd81",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3db9bc607367955a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes_roadmap/Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b91710988976f672",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "b91710988976f672",
+  "lastOpenFiles": [
+    "README.md",
+    "Untitled.base",
+    "Notes_roadmap/01-Linux/Untitled.base",
+    "Notes_roadmap/01-Linux/Git Basics.md",
+    "Notes_roadmap/README.md",
+    "Notes_roadmap/03-HTTP-REST/HTTP Basics.md",
+    "Notes_roadmap/03-HTTP-REST/REST API.md",
+    "Notes_roadmap/03-HTTP-REST/HTTP Headers.md",
+    "Notes_roadmap/03-HTTP-REST/curl.md",
+    "Notes_roadmap/04-DNS/DNS Troubleshooting.md",
+    "Notes_roadmap/04-DNS/DNS Resolution.md",
+    "Notes_roadmap/04-DNS/DNS Records.md",
+    "Notes_roadmap/04-DNS/DNS Basics.md",
+    "Notes_roadmap/05-Load-Balancing/Algorithms.md",
+    "Notes_roadmap/05-Load-Balancing/L4 vs L7.md",
+    "Notes_roadmap/05-Load-Balancing/Health Checks.md",
+    "Notes_roadmap/05-Load-Balancing/Load Balancing Basics.md",
+    "Notes_roadmap/05-Load-Balancing/Load Balancer Troubleshooting.md",
+    "Notes_roadmap/03-HTTP-REST/HTTP Status Codes.md",
+    "Notes_roadmap/03-HTTP-REST/HTTP Methods.md",
+    "Notes_roadmap/00-Home/SRE Roadmap.md",
+    "Notes_roadmap/01 - Linux/HTTP Methods.md",
+    "Notes_roadmap/01-Linux",
+    "Notes_roadmap/00-Home/Weekly Review.md",
+    "Notes_roadmap/00-Home/Study Progres.md",
+    "Notes_roadmap/00-Home",
+    "Notes_roadmap/01 - Linux/HTTP Headers.md",
+    "Notes_roadmap/01 - Linux/HTTP Basics.md",
+    "Notes_roadmap/00 - Home/SRE Roadmap.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Notes_roadmap/16-Cheat-Sheets",
+    "Notes_roadmap/15-Interview-Questions",
+    "Notes_roadmap/14-Troubleshooting",
+    "Notes_roadmap/13-Incident-Management",
+    "Notes_roadmap/12-Cloud",
+    "Notes_roadmap/11-CI-CD"
+  ]
+}
