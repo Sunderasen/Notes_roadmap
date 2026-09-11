@@ -11,14 +11,12 @@
             "id": "844e3ef7b42ef005",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes_roadmap/00-Home/SRE Roadmap.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes_roadmap/Linux-Admin-Handbook.pdf"
               },
-              "icon": "lucide-file",
-              "title": "SRE Roadmap"
+              "icon": "lucide-file-text",
+              "title": "Linux-Admin-Handbook"
             }
           }
         ]
@@ -83,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "68b06ac1dd4599c1",
@@ -200,8 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f4b10d618e3e332e",
+  "active": "844e3ef7b42ef005",
   "lastOpenFiles": [
+    "README.md",
+    "Notes_roadmap/Linux-Admin-Handbook.pdf",
+    "Notes_roadmap/00-Home/SRE Roadmap.md",
     "Notes_roadmap/01-Linux/Git Basics.md",
     "Notes_roadmap/05-Load-Balancing/Load Balancing Basics.md",
     "Notes_roadmap/05-Load-Balancing/Load Balancer Troubleshooting.md",
@@ -211,8 +213,6 @@
     "Notes_roadmap/03-HTTP-REST/HTTP Methods.md",
     "Notes_roadmap/03-HTTP-REST/HTTP Headers.md",
     "Notes_roadmap/03-HTTP-REST/curl.md",
-    "Notes_roadmap/00-Home/SRE Roadmap.md",
-    "README.md",
     "Untitled.base",
     "Notes_roadmap/01-Linux/Untitled.base",
     "Notes_roadmap/README.md",
@@ -231,13 +231,11 @@
     "Notes_roadmap/01 - Linux/HTTP Headers.md",
     "Notes_roadmap/01 - Linux/HTTP Basics.md",
     "Notes_roadmap/00 - Home/SRE Roadmap.md",
-    "Untitled.md",
     "Untitled.canvas",
     "Notes_roadmap/16-Cheat-Sheets",
     "Notes_roadmap/15-Interview-Questions",
     "Notes_roadmap/14-Troubleshooting",
     "Notes_roadmap/13-Incident-Management",
-    "Notes_roadmap/12-Cloud",
-    "Notes_roadmap/11-CI-CD"
+    "Notes_roadmap/12-Cloud"
   ]
 }
