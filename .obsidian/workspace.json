@@ -42,8 +42,8 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "log"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -200,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "844e3ef7b42ef005",
+  "active": "f4b10d618e3e332e",
   "lastOpenFiles": [
     "Notes_roadmap/03-HTTP-REST/HTTP Status Codes.md",
     "Notes_roadmap/03-HTTP-REST/curl.md",
