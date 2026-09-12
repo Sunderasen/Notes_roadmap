@@ -11,12 +11,14 @@
             "id": "844e3ef7b42ef005",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/Linux-Admin-Handbook.pdf"
+                "file": "Notes_roadmap/03-HTTP-REST/HTTP Headers.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Linux-Admin-Handbook"
+              "icon": "lucide-file",
+              "title": "HTTP Headers"
             }
           }
         ]
@@ -81,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "68b06ac1dd4599c1",
@@ -201,10 +202,12 @@
   },
   "active": "844e3ef7b42ef005",
   "lastOpenFiles": [
-    "README.md",
-    "Notes_roadmap/Linux-Admin-Handbook.pdf",
-    "Notes_roadmap/00-Home/SRE Roadmap.md",
+    "Notes_roadmap/03-HTTP-REST/HTTP Basics.md",
+    "Notes_roadmap/03-HTTP-REST/curl.md",
     "Notes_roadmap/01-Linux/Git Basics.md",
+    "Notes_roadmap/Linux-Admin-Handbook.pdf",
+    "README.md",
+    "Notes_roadmap/00-Home/SRE Roadmap.md",
     "Notes_roadmap/05-Load-Balancing/Load Balancing Basics.md",
     "Notes_roadmap/05-Load-Balancing/Load Balancer Troubleshooting.md",
     "Notes_roadmap/05-Load-Balancing/L4 vs L7.md",
@@ -212,11 +215,9 @@
     "Notes_roadmap/05-Load-Balancing/Algorithms.md",
     "Notes_roadmap/03-HTTP-REST/HTTP Methods.md",
     "Notes_roadmap/03-HTTP-REST/HTTP Headers.md",
-    "Notes_roadmap/03-HTTP-REST/curl.md",
     "Untitled.base",
     "Notes_roadmap/01-Linux/Untitled.base",
     "Notes_roadmap/README.md",
-    "Notes_roadmap/03-HTTP-REST/HTTP Basics.md",
     "Notes_roadmap/03-HTTP-REST/REST API.md",
     "Notes_roadmap/04-DNS/DNS Troubleshooting.md",
     "Notes_roadmap/04-DNS/DNS Resolution.md",
