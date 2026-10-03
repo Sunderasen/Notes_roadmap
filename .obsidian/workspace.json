@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/08-Docker/05-Docker-Volumes.md",
+                "file": "Notes_roadmap/08-Docker/02-Container-Lifecycle.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Docker-Volumes"
+              "title": "02-Container-Lifecycle"
             }
           }
         ]
@@ -200,9 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "844e3ef7b42ef005",
+  "active": "f4b10d618e3e332e",
   "lastOpenFiles": [
     "Notes_roadmap/08-Docker/04-Docker-Networking.md",
+    "Notes_roadmap/08-Docker/05-Docker-Volumes.md",
     "Notes_roadmap/08-Docker/03-Basic-Docker-Commands.md",
     "Notes_roadmap/08-Docker/02-Container-Lifecycle.md",
     "Notes_roadmap/08-Docker/01-Docker-Architecture.md",
@@ -220,7 +221,6 @@
     "Notes_roadmap/03-HTTP-REST/HTTP Basics.md",
     "Notes_roadmap/03-HTTP-REST/curl.md",
     "Notes_roadmap/03-HTTP-REST/REST API.md",
-    "Notes_roadmap/08-Docker/05-Docker-Volumes.md",
     "Notes_roadmap/03-HTTP-REST/HTTP Methods.md",
     "Notes_roadmap/01-Linux/Linux-Admin-Handbook.pdf",
     "Notes_roadmap/01-Linux/Git Basics.md",
