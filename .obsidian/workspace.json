@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/08-Docker/04-Dockerfile.md",
+                "file": "Notes_roadmap/08-Docker/05-Container-Lifecycle.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Dockerfile"
+              "title": "05-Container-Lifecycle"
             }
           }
         ]
@@ -202,11 +202,11 @@
   },
   "active": "844e3ef7b42ef005",
   "lastOpenFiles": [
+    "Notes_roadmap/08-Docker/04-Dockerfile.md",
     "Notes_roadmap/08-Docker/03-Docker-Images.md",
     "Notes_roadmap/08-Docker/02-Docker-Run.md",
     "Notes_roadmap/08-Docker/01-Containers-vs-VMs.md",
     "Notes_roadmap/08-Docker/02-Container-Lifecycle.md",
-    "Notes_roadmap/08-Docker/04-Dockerfile.md",
     "Notes_roadmap/08-Docker/06-Docker-Networking.md",
     "Notes_roadmap/08-Docker/05-Container-Lifecycle.md",
     "Notes_roadmap/08-Docker/07-Docker-Volumes.md",
