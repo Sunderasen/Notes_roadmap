@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/08-Docker/09-Docker-Logs-Troubleshooting.md",
+                "file": "Notes_roadmap/08-Docker/10-Docker-Resources.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-Docker-Logs-Troubleshooting"
+              "title": "10-Docker-Resources"
             }
           }
         ]
@@ -202,6 +202,7 @@
   },
   "active": "844e3ef7b42ef005",
   "lastOpenFiles": [
+    "Notes_roadmap/08-Docker/09-Docker-Logs-Troubleshooting.md",
     "Notes_roadmap/08-Docker/08-Environment-Variables.md",
     "Notes_roadmap/08-Docker/07-Docker-Volumes.md",
     "Notes_roadmap/08-Docker/06-Docker-Networking.md",
@@ -211,7 +212,6 @@
     "Notes_roadmap/08-Docker/02-Docker-Run.md",
     "Notes_roadmap/08-Docker/01-Containers-vs-VMs.md",
     "Notes_roadmap/08-Docker/02-Container-Lifecycle.md",
-    "Notes_roadmap/08-Docker/09-Docker-Logs-Troubleshooting.md",
     "Notes_roadmap/08-Docker/10-Docker-Resources.md",
     "Notes_roadmap/08-Docker/11-Docker-Compose.md",
     "Notes_roadmap/08-Docker/12-Docker-Security.md",
