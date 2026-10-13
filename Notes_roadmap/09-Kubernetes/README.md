@@ -1,10 +1,8 @@
 # Kubernetes — SRE Study Notes
 
-These notes cover what we have learned and practiced so far using Minikube.
+These are **interview-ready learning notes**, not just definitions. Each topic uses simple English, working examples, commands, troubleshooting and interview Q&A.
 
-**How to study:** Read one topic, run its commands, and revise the **Quick Revision** section. Keep adding new learning to the same folder.
-
-## Topics
+## Start Here
 - [[01-Kubernetes-Architecture]]
 - [[02-Namespaces]]
 - [[03-Pods-and-YAML]]
@@ -13,9 +11,12 @@ These notes cover what we have learned and practiced so far using Minikube.
 - [[06-DaemonSet]]
 - [[07-Deployments]]
 - [[08-Services-and-DNS]]
-- [[Troubleshooting]]
-- [[Kubectl-Cheat-Sheet]]
 
-**Remember:** `kubectl` talks to the API server. Controllers keep working to match the desired state.
+## Keep Updating
+- [[Troubleshooting]] — errors, checks and fixes
+- [[Kubectl-Cheat-Sheet]] — quick commands without numbered sections
 
-> Examples use namespace `dev` unless mentioned otherwise. Replace sample names with your actual resource names.
+## How to Study
+Read **one topic at a time**. Run its YAML/commands in your Minikube cluster. Explain the topic in your own words using the interview questions. Use Quick Revision before interviews.
+
+> Commands assume a `dev` namespace where stated. Verify your current context and namespace before changing resources. Sample resource names may already exist in your cluster; check before applying.

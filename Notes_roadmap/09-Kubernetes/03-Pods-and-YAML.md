@@ -1,17 +1,25 @@
 # Pods and Pod YAML
 
-Tags: #kubernetes #pods #yaml #sre #cka
+Tags: #kubernetes #pod #yaml #sre #cka
 
 ## Concept
-A Pod is the smallest unit Kubernetes schedules.
+A Pod is the smallest unit Kubernetes schedules. Usually one Pod contains one application container.
 
-## Definition
-A Pod holds one or more containers that share a network identity and can share storage.
+## Definition — interview answer
+A Pod wraps one or more containers that share the Pod network (including one Pod IP and localhost) and can share volumes. Kubernetes schedules the **Pod**, not each container separately.
+
+## Why We Need It
+Kubernetes needs a unit to schedule, restart containers in, and attach network/storage settings to. Pods are replaceable; do not rely on a Pod IP staying the same.
 
 ## How It Works
-One Pod normally runs one main application container. Containers in the same Pod share the Pod IP and can reach each other through `localhost`.
+```text
+Node
+  Pod: httpd (Pod IP 10.244.x.y)
+    Container: httpd -> listens on port 80
+```
+A Pod's `Running` phase does **not** mean its application is ready for traffic.
 
-## YAML Example
+## Working YAML
 ```yaml
 apiVersion: v1
 kind: Pod
@@ -28,47 +36,75 @@ spec:
         - containerPort: 80
 ```
 
-| Field | Remember |
+| Field | What it means |
 |---|---|
-| `apiVersion` | Kubernetes API version |
-| `kind` | Resource type |
-| `metadata.name` | Pod name |
-| `metadata.namespace` | Where the Pod lives |
-| `metadata.labels` | Tags used to find the Pod |
-| `spec.containers` | Containers to run |
-| `name` | Container name |
-| `image` | Container image |
-| `containerPort` | Port declared for the container; does not expose it outside the Pod |
+| `apiVersion: v1` | API group/version for Pod |
+| `kind: Pod` | Create a Pod |
+| `metadata.name` | Pod's name |
+| `metadata.namespace` | Pod's namespace |
+| `metadata.labels` | Searchable key/value tags |
+| `spec.containers` | List of containers in Pod |
+| `containers[].name` | Container name (not Pod name) |
+| `image` | Image to run; pinned version is clearer than `latest` |
+| `containerPort` | Describes the container port; does not publish it |
 
-## Pod Lifecycle
-- **Pending:** Pod accepted but not fully running yet; may be waiting for scheduling, image, or setup.
-- **Running:** Pod is assigned to a node and at least one container is running, starting, or restarting.
-- **Succeeded:** All containers finished successfully and will not restart.
-- **Failed:** All containers ended, and at least one failed.
-- **Unknown:** Kubernetes cannot determine the Pod phase.
+## Pod Phases vs Status Reasons
+| Pod phase | Meaning |
+|---|---|
+| Pending | Accepted but not fully started |
+| Running | Assigned to a node; container is running, starting, or restarting |
+| Succeeded | All containers finished successfully |
+| Failed | All containers stopped; at least one failed |
+| Unknown | State cannot be determined |
 
-`CrashLoopBackOff` and `ImagePullBackOff` are **kubectl status reasons**, not Pod phases. **Running does not always mean Ready.**
+`CrashLoopBackOff` and `ImagePullBackOff` are **status reasons shown by kubectl**, not Pod phases. A container may restart while the Pod object remains.
 
-## SRE Relevance
-A Pod can be Running but fail readiness checks. Always check `READY`, events, and logs.
-
-## Commands
+## What to Learn
 ```bash
-kubectl apply -f pod.yaml
+kubectl apply -f httpd.yaml
 kubectl get pods -n dev -o wide
 kubectl describe pod httpd -n dev
 kubectl logs httpd -n dev
 kubectl logs -f httpd -n dev
 kubectl logs httpd -n dev --previous
 kubectl exec -it httpd -n dev -- /bin/sh
-kubectl delete pod httpd -n dev
 ```
+For multi-container Pods use `-c <container-name>` with `logs` or `exec`.
 
-**Note:** A standalone Pod is not recreated automatically after deletion unless another controller manages it.
+## Real-World Example
+An API Pod says `Running`, but users get 503. Check `READY` and events, then the application logs. A process can be running while failing its readiness check or unable to serve requests.
+
+## Troubleshooting
+**Pod keeps restarting:**
+```bash
+kubectl get pod httpd -n dev
+kubectl describe pod httpd -n dev
+kubectl logs httpd -n dev --previous
+```
+Look for application errors, OOMKilled, and probe failures. `--previous` shows the last terminated container's logs if available.
+
+**No logs?** `kubectl logs` reads stdout/stderr. An app writing only to a file may not appear there.
+
+**Pod deleted and not recreated?** Standalone Pods have no ReplicaSet/Deployment to replace them.
+
+## Interview Questions
+**Q: Pod vs container?**  
+A: A container runs the process. A Pod is the Kubernetes unit that groups and schedules container(s).
+
+**Q: Can two containers in a Pod use localhost?**  
+A: Yes, they share the Pod network namespace.
+
+**Q: Does `containerPort: 80` expose the Pod outside the cluster?**  
+A: No. Use a Service or another supported network path.
+
+**Q: Difference between restart and replacement?**  
+A: Kubelet can restart a container inside the same Pod; a controller creates a new Pod when a managed Pod disappears.
+
+**Q: What do you check first in CrashLoopBackOff?**  
+A: Describe the Pod and read current/previous container logs.
 
 ## Quick Revision
-- Pod name and container name are different fields.
-- Pod = scheduled unit; container = running application.
-- Check `READY`, not only `STATUS`.
-- `kubectl logs` reads container stdout/stderr.
-- `--previous` helps after a container restart.
+- Pod IP can change; Service gives a stable endpoint.
+- Running ≠ Ready.
+- Pod name and container name are separate.
+- Logs + events explain most first-level Pod failures.

@@ -151,3 +151,15 @@ kubectl logs <pod-name> -n dev --previous
 - `CrashLoopBackOff`: a container keeps failing and restarting.
 
 **Remember:** Events explain many startup problems; logs explain what the application printed.
+
+---
+
+## LoadBalancer Service has NodePort but curl fails
+
+**Check:** `kubectl get svc -n dev`, `kubectl get nodes -o wide`, `kubectl get endpointslices -n dev -l kubernetes.io/service-name=<service-name>`.
+
+**Why:** NodePort may be allocated, but Minikube node networking/firewall can block access. The backend may also be unready.
+
+**Try:** `minikube service <service-name> -n dev --url` or `kubectl port-forward svc/<service-name> -n dev 8080:80`.
+
+**Remember:** Allocated port does not guarantee host reachability.

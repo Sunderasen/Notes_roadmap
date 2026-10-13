@@ -89,3 +89,12 @@ kubectl port-forward -n dev svc/cluster-ip 8080:80
 7. Service endpoints and ports correct?
 8. DNS and network path working?
 ```
+
+## LoadBalancer / NodePort
+```bash
+kubectl get svc -n dev
+kubectl describe svc <service-name> -n dev
+kubectl get nodes -o wide
+kubectl get endpointslices -n dev -l kubernetes.io/service-name=<service-name>
+minikube service <service-name> -n dev --url
+```
