@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/08-Docker/Docker-Cheat-Sheet.md",
+                "file": "Notes_roadmap/09-Kubernetes/01-Kubernetes-Architecture.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker-Cheat-Sheet"
+              "title": "01-Kubernetes-Architecture"
             }
           }
         ]
@@ -202,6 +202,18 @@
   },
   "active": "844e3ef7b42ef005",
   "lastOpenFiles": [
+    "Notes_roadmap/09-Kubernetes/03-Pods-and-YAML.md",
+    "Notes_roadmap/09-Kubernetes/04-Labels-and-Selectors.md",
+    "Notes_roadmap/09-Kubernetes/05-ReplicaSet.md",
+    "Notes_roadmap/09-Kubernetes/06-DaemonSet.md",
+    "Notes_roadmap/09-Kubernetes/07-Deployments.md",
+    "Notes_roadmap/09-Kubernetes/08-Services-and-DNS.md",
+    "Notes_roadmap/09-Kubernetes/Kubectl-Cheat-Sheet.md",
+    "Notes_roadmap/09-Kubernetes/README.md",
+    "Notes_roadmap/09-Kubernetes/Troubleshooting.md",
+    "Notes_roadmap/09-Kubernetes/02-Namespaces.md",
+    "Notes_roadmap/08-Docker/Docker-Cheat-Sheet.md",
+    "Notes_roadmap/09-Kubernetes/01-Kubernetes-Architecture.md",
     "Notes_roadmap/08-Docker/12-Docker-Security.md",
     "Notes_roadmap/08-Docker/10-Docker-Resources.md",
     "Notes_roadmap/08-Docker/09-Docker-Logs-Troubleshooting.md",
@@ -215,19 +227,7 @@
     "Notes_roadmap/08-Docker/01-Containers-vs-VMs.md",
     "Notes_roadmap/08-Docker/02-Container-Lifecycle.md",
     "Notes_roadmap/08-Docker/11-Docker-Compose.md",
-    "Notes_roadmap/08-Docker/Docker-Cheat-Sheet.md",
     "Notes_roadmap/08-Docker/04-Docker-Networking.md",
-    "Notes_roadmap/08-Docker/05-Docker-Volumes.md",
-    "Notes_roadmap/08-Docker/03-Basic-Docker-Commands.md",
-    "Notes_roadmap/08-Docker/01-Docker-Architecture.md",
-    "Notes_roadmap/04-DNS/DNS Troubleshooting.md",
-    "Notes_roadmap/04-DNS/DNS Resolution.md",
-    "Notes_roadmap/04-DNS/DNS Records.md",
-    "Notes_roadmap/04-DNS/DNS Basics.md",
-    "Notes_roadmap/05-Load-Balancing/Load Balancing Basics.md",
-    "Notes_roadmap/05-Load-Balancing/Load Balancer Troubleshooting.md",
-    "Notes_roadmap/05-Load-Balancing/L4 vs L7.md",
-    "Notes_roadmap/05-Load-Balancing/Health Checks.md",
     "Notes_roadmap/01-Linux/Linux-Admin-Handbook.pdf",
     "Untitled.base",
     "Notes_roadmap/01-Linux/Untitled.base",
