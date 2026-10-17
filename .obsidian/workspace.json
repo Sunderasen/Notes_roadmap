@@ -79,13 +79,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "68b06ac1dd4599c1",
@@ -202,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "844e3ef7b42ef005",
+  "active": "f4b10d618e3e332e",
   "lastOpenFiles": [
     "Notes_roadmap/03-HTTP-REST/REST API.md",
     "Notes_roadmap/09-Kubernetes/10-RBAC.md",
