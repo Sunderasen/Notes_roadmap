@@ -11,6 +11,7 @@ These are **interview-ready learning notes**, not just definitions. Each topic u
 - [[06-DaemonSet]]
 - [[07-Deployments]]
 - [[08-Services-and-DNS]]
+- [[10-RBAC]]
 
 ## Keep Updating
 - [[Troubleshooting]] — errors, checks and fixes
