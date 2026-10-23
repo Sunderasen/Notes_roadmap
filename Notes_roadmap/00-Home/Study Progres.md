@@ -10,7 +10,7 @@ Job switch preparation — Target: after April 2027
 
 **Current Phase:** Fundamentals
 
-**Current Topic:** HTTP / REST API
+**Current Topic:** K8s
 
 **Study Time:**
 - Weekdays: 1–1.5 hours/day
@@ -50,11 +50,11 @@ Job switch preparation — Target: after April 2027
 - [ ] DNS troubleshooting
 
 ## 05 — Load Balancing
-- [ ] Load balancing fundamentals
-- [ ] L4 vs L7
-- [ ] Health checks
+- [x] Load balancing fundamentals
+- [x] L4 vs L7
+- [x] Health checks
 - [ ] Reverse proxy
-- [ ] Load-balancer troubleshooting
+- [x] Load-balancer troubleshooting
 
 ## 06 — Git
 - [ ] Git fundamentals
@@ -72,18 +72,18 @@ Job switch preparation — Target: after April 2027
 - [ ] Alerting
 
 ## 08 — Docker
-- [ ] Images
-- [ ] Containers
-- [ ] Dockerfile
-- [ ] Networking
-- [ ] Volumes
-- [ ] Troubleshooting
+- [x] Images
+- [x] Containers
+- [x] Dockerfile
+- [x] Networking
+- [x] Volumes
+- [x] Troubleshooting
 
 ## 09 — Kubernetes
-- [ ] Architecture
-- [ ] Pods
-- [ ] Deployments
-- [ ] Services
+- [x] Architecture
+- [x] Pods
+- [x] Deployments
+- [x] Services
 - [ ] ConfigMaps / Secrets
 - [ ] Ingress
 - [ ] Probes
