@@ -2,5 +2,8 @@
   "showRibbon": true,
   "showViewHeader": true,
   "baseFontSizeAction": true,
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Obsidianite",
+  "accentColor": "#e7e35a",
+  "theme": "obsidian",
+  "translucency": true
 }
