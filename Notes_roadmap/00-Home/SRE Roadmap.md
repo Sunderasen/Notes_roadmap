@@ -6,14 +6,14 @@ Become job-ready for an SRE role and start interviewing after April 2027.
 
 ## Learning Path
 
-- [ ] Linux
+- [x] Linux
 - [ ] Networking
 - [x] HTTP & REST APIs
-- [ ] DNS
-- [ ] Load Balancing
+- [x] DNS
+- [x] Load Balancing
 - [x] Git
 - [ ] Monitoring
-- [ ] Docker
+- [x] Docker
 - [ ] Kubernetes
 - [ ] Terraform
 - [ ] CI/CD
