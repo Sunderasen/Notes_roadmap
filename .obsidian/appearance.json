@@ -5,5 +5,8 @@
   "cssTheme": "Obsidianite",
   "accentColor": "#e7e35a",
   "theme": "obsidian",
-  "translucency": true
+  "translucency": true,
+  "enabledCssSnippets": [
+    "ruled-notebook"
+  ]
 }

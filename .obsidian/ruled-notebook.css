@@ -1,0 +1,32 @@
+
+/* White notebook with blue ruled lines */
+.theme-light .workspace-leaf-content[data-type="markdown"] {
+  --background-primary: #ffffff;
+  --text-normal: #202c3a;
+  --h1-color: #174d88;
+  --h2-color: #2466a0;
+}
+
+.theme-light .markdown-reading-view .markdown-preview-view,
+.theme-light .markdown-source-view .cm-scroller {
+  background-color: #ffffff;
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 31px,
+      #c8dff7 31px,
+      #c8dff7 32px
+    );
+  background-size: 100% 32px;
+}
+
+.theme-light .markdown-rendered pre,
+.theme-light .markdown-source-view .cm-line.HyperMD-codeblock {
+  background: #f0f5fb;
+}
+
+.theme-light .markdown-rendered {
+  line-height: 32px;
+}
+
