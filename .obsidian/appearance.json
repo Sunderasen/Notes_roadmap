@@ -6,7 +6,5 @@
   "accentColor": "#e7e35a",
   "theme": "obsidian",
   "translucency": true,
-  "enabledCssSnippets": [
-    "ruled-notebook"
-  ]
+  "enabledCssSnippets": []
 }
