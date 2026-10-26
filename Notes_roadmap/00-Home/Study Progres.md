@@ -84,7 +84,7 @@ Job switch preparation — Target: after April 2027
 - [x] Pods
 - [x] Deployments
 - [x] Services
-- [ ] ConfigMaps / Secrets
+- [x] ConfigMaps / Secrets
 - [ ] Ingress
 - [ ] Probes
 - [ ] Troubleshooting
