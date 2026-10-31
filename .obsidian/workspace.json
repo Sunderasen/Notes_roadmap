@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/09-Kubernetes/LWM-K8-Note.md",
+                "file": "Notes_roadmap/03-HTTP-REST/HTTP Headers.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LWM-K8-Note"
+              "title": "HTTP Headers"
             }
           }
         ],
@@ -217,9 +217,10 @@
   },
   "active": "b2c20451a9c91644",
   "lastOpenFiles": [
+    "Notes_roadmap/03-HTTP-REST/HTTP Methods.md",
+    "Notes_roadmap/09-Kubernetes/LWM-K8-Note.md",
     "Notes_roadmap/09-Kubernetes/12-Probes-Container Types-ConfigMaps-Secrets.md",
     "Notes_roadmap/09-Kubernetes/06-DaemonSet.md",
-    "Notes_roadmap/09-Kubernetes/LWM-K8-Note.md",
     "Notes_roadmap/09-Kubernetes/07-Deployments.md",
     "Notes_roadmap/09-Kubernetes/01-Kubernetes-Architecture.md",
     "Notes_roadmap/00-Home/Study Progres.md",
@@ -244,7 +245,6 @@
     "Notes_roadmap/09-Kubernetes/Troubleshooting.md",
     "Notes_roadmap/08-Docker/03-Docker-Images.md",
     "Notes_roadmap/08-Docker/09-Docker-Logs-Troubleshooting.md",
-    "Notes_roadmap/08-Docker/Docker-Cheat-Sheet.md",
     "Notes_roadmap/09-Kubernetes",
     "Untitled.base",
     "Notes_roadmap/01-Linux/Untitled.base",
