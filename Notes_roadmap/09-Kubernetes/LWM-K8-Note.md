@@ -2469,7 +2469,7 @@ VPA automatically adjusts the CPU and memory requests/limits of containers in a 
 
 - You want to optimize resource usage per pod
 - Your app does not scale well horizontally
-- You need to reduce over-provisioning
+- You need to reduce over-provisioning.
 
 #### 🔧 Modes in VPA:
 
