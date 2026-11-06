@@ -231,10 +231,12 @@
   },
   "active": "882179f65a196105",
   "lastOpenFiles": [
+    "Notes_roadmap/09-Kubernetes/14-Kubernetes_StatefulSets_Services_Autoscaling_Jobs_and_Resources.md",
+    "Notes_roadmap/09-Kubernetes/13-Kubernetes Ingress and Gateway API.md",
+    "Notes_roadmap/09-Kubernetes/14",
     "Notes_roadmap/09-Kubernetes/Kubectl-Cheat-Sheet.md",
     "Notes_roadmap/09-Kubernetes/LWM-K8-Note.md",
     "Notes_roadmap/09-Kubernetes/14-Kubernetes_StatefulSets_Services_Autoscaling_Jobs_and_Resources",
-    "Notes_roadmap/09-Kubernetes/13-Kubernetes Ingress and Gateway API.md",
     "Notes_roadmap/09-Kubernetes/11-Volumes-and-Storage.md",
     "Notes_roadmap/08-Docker/05-Container-Lifecycle.md",
     "Notes_roadmap/08-Docker/08-Environment-Variables.md",
@@ -265,7 +267,6 @@
     "Notes_roadmap/01-Linux",
     "Notes_roadmap/00-Home",
     "Untitled.canvas",
-    "Notes_roadmap/16-Cheat-Sheets",
-    "Notes_roadmap/15-Interview-Questions"
+    "Notes_roadmap/16-Cheat-Sheets"
   ]
 }
