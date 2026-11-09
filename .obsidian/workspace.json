@@ -11,12 +11,14 @@
             "id": "882179f65a196105",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Notes_roadmap/09-Kubernetes/k8s.pdf"
+                "file": "Notes_roadmap/09-Kubernetes/08-Services-and-DNS.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "k8s"
+              "icon": "lucide-file",
+              "title": "08-Services-and-DNS"
             }
           }
         ]
@@ -81,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "68b06ac1dd4599c1",
@@ -201,8 +202,8 @@
   },
   "active": "882179f65a196105",
   "lastOpenFiles": [
-    "Notes_roadmap/09-Kubernetes/11-Volumes-and-Storage.md",
     "Notes_roadmap/09-Kubernetes/k8s.pdf",
+    "Notes_roadmap/09-Kubernetes/11-Volumes-and-Storage.md",
     "Notes_roadmap/09-Kubernetes/12-Probes-Container Types-ConfigMaps-Secrets.md",
     "Notes_roadmap/09-Kubernetes/LWM-K8-Note.md",
     "Notes_roadmap/09-Kubernetes/01-Kubernetes-Architecture.md",
