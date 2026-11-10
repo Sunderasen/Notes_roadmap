@@ -11,14 +11,12 @@
             "id": "882179f65a196105",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes_roadmap/09-Kubernetes/09-Pod-Scheduling.md",
-                "mode": "preview",
-                "source": false
+                "file": "Notes_roadmap/09-Kubernetes/k8s.pdf"
               },
-              "icon": "lucide-file",
-              "title": "09-Pod-Scheduling"
+              "icon": "lucide-file-text",
+              "title": "k8s"
             }
           }
         ]
@@ -83,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "68b06ac1dd4599c1",
@@ -202,6 +201,7 @@
   },
   "active": "882179f65a196105",
   "lastOpenFiles": [
+    "Notes_roadmap/09-Kubernetes/09-Pod-Scheduling.md",
     "Notes_roadmap/09-Kubernetes/11-Volumes-and-Storage.md",
     "Notes_roadmap/09-Kubernetes/08-Services-and-DNS.md",
     "Notes_roadmap/09-Kubernetes/13-Kubernetes Ingress and Gateway API.md",
@@ -210,7 +210,6 @@
     "Notes_roadmap/09-Kubernetes/LWM-K8-Note.md",
     "Notes_roadmap/09-Kubernetes/01-Kubernetes-Architecture.md",
     "Notes_roadmap/09-Kubernetes/10-RBAC.md",
-    "Notes_roadmap/09-Kubernetes/09-Pod-Scheduling.md",
     "Notes_roadmap/09-Kubernetes/04-Labels-and-Selectors.md",
     "Notes_roadmap/09-Kubernetes/03-Pods-and-YAML.md",
     "Notes_roadmap/09-Kubernetes/02-Namespaces.md",
